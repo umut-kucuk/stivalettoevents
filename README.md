@@ -4,10 +4,20 @@ Un progetto di gruppo per la finale del corso Java di Generation Italiy realizza
 
 ### Homepage
 
+![homepage](https://github.com/umut-kucuk/stivalettoevents/blob/main/stivalettoImages/homepage.JPG)
+
 ### Login
 
-### Eventi
+![login](https://github.com/umut-kucuk/stivalettoevents/blob/main/stivalettoImages/login.JPG)
 
 ### Evento
 
+![evento](https://github.com/umut-kucuk/stivalettoevents/blob/main/stivalettoImages/evento.JPG)
+
+### Eventi
+
+![eventi](https://github.com/umut-kucuk/stivalettoevents/blob/main/stivalettoImages/eventi.JPG)
+
 ### Carrello
+
+![carrello](https://github.com/umut-kucuk/stivalettoevents/blob/main/stivalettoImages/carrello.JPG)
