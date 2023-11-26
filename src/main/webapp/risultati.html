@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ricerca|Risultati</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="risultati.css">
+  </head>
+  <body>
+  <%@ Carissimi colleghi del Backend , qui deve essere inclusa la navbar se necessaria %>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+            <h1 style="color: green; font-weight: bold;">Imposta la tua Ricerca</h1>
+            <br>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="nome Evento"
+              />
+            </div>
+           <div id="list1" class="dropdown-check-list" tabindex="100">
+                        <span style="color:  #f38600; font-weight: bold;" class="anchor">Città</span>
+                       
+                        <ul class="items">
+                            
+                          <li><input type="radio" name="citta" value="Bari"/>BARI</li>
+                          <li><input type="radio" name="citta" value="Bologna"/>BOLOGNA</li>
+                          <li><input type="radio" name="citta" value="Catania"/>CATANIA</li>
+                          <li><input type="radio" name="citta" value="Firenze"/>FIRENZE</li>
+                          <li><input type="radio" name="citta" value="Genova"/>GENOVA</li>
+                          <li><input type="radio" name="citta" value="Milano"/>MILANO</li>
+                          <li><input type="radio" name="citta" value="Napoli"/>NAPOLI</li>
+                          <li><input type="radio" name="citta" value="Palermo"/>PALERMO</li>
+                          <li><input type="radio" name="citta" value="Roma"/>ROMA</li>
+                          <li><input type="radio" name="citta" value="Torino"/>TORINO</li>
+                            </div>
+                        </ul>
+            <div class="form-group">
+                 <label style="color:  #f38600; font-weight: bold;" class="form-label" for="risultatiData">Da:</label>
+                          <input class="form-control" type="date" id="risultatiData" name="dataEvento">
+            
+                <label style="color:  #f38600; font-weight: bold;" class="form-label" for="risultatiData">A:</label>
+                          <input class="form-control" type="date" id="risultatiData" name="dataEvento">
+              <div input type="submit">
+                        <li style="font-size: 1.5rem; list-style: none; font-weight: bold; color: green;" > <input type="radio" name="pagamento"/>gratuito </li>
+                         <li style="font-size: 1.5rem; list-style: none; font-weight: bold; color: #f38600;"  ><input type="radio" name="pagamento"/>pagamento</li>
+                       
+                        </div>
+                            <button type="button" class="cerca-btn">Cerca</button>
+            </div>
+            <div class="form-group">
+             
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-2">
+          
+           
+             <div class="card" style="width: 18rem">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1450044804117-534ccd6e6a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button>Scopri di piu</button>
+            </div>
+          </div>
+
+
+            <div class="card" style="width: 18rem">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+           <button>Scopri di piu</button>  
+            </div>
+          </div>
+
+
+            <div class="card" style="width: 18rem">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1464047736614-af63643285bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            <button>Scopri di piu</button>  
+            </div>
+          </div>
+
+
+
+              <div class="card" style="width: 18rem">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1556125574-d7f27ec36a06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+             <button>Scopri di piu</button>  
+            </div>
+          </div>
+
+      
+
+ 
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/43c824bcfa.js"
+      crossorigin="anonymous"
+    ></script>
+  
+  </body>
+</html>

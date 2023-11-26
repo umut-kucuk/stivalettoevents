@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.col-md-12{
+	
+	display:flex;
+	flex-direction:row;
+	column-gap:10px;
+	flex-wrap: wrap;
+}
+
+
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card {
+  transition: 0.25s linear;
+
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgba(250, 160, 4, 0.15) 0px 7px 29px 0px;
+}
+
+button{
+  background-color: #f1c27b;
+ 	
+  color: white;
+
+  border: none;
+
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+
+button:hover{
+	transform:scale(1.3);
+}
+
+.col-md-4 {
+	display:flex;
+	flex-direction:column;
+	
+}
+.col-md-4 button{
+	width:100%;
+	column-gap:10px;
+}
